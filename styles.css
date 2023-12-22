@@ -1,0 +1,64 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden; /* Evita el desplazamiento vertical */
+    }
+    
+    #videoFondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Cambiado de min-width a width */
+  height: 100%; /* Cambiado de min-height a height */
+  object-fit: cover; /* Para que el video se ajuste y recorte según el contenedor */
+  z-index: -1;
+}
+    
+    .container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    
+    label {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    
+    select {
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    
+    #imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    #imagenes img {
+      max-width: 200px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }

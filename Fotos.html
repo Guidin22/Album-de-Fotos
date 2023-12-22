@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestro Album (M y G)</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <video autoplay loop id="videoFondo">
+    <source src="https://drive.google.com/uc?id=1EvG2ATYRzP8MVc-DYviEC5h8bEY7CD0e" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+
+  <div class="container">
+    <h1>Nuestro album de recuerdos</h1>
+    <p>Bienvenida, mi Gordita <br>
+      Gracias amor por cada momento a su lado,<br>
+      Nunca olvide lo importante que es para mi <br>
+      &#x1F496 LA AMO CON TODO MI CORAZON &#x1F46B
+      </p>
+    
+
+    <label for="fechas">Selecciona una fecha:</label>
+    <select id="fechas" onchange="mostrarImagenes()">
+      <option value="">Selecciona una fecha</option>
+      <option value="2023-20-12">20 de diciembre, 2023</option>
+      <option value="2023-06-12">06 de diciembre, 2023</option>
+      <option value="2023-03-12">03 de diciembre, 2023</option>
+      <option value="2023-13-11">13 de noviembre, 2023</option>
+      <option value="2023-11-11">11 de noviembre, 2023</option>
+      <option value="2023-07-11">07 de noviembre, 2023</option>
+      <option value="2023-27-10">27 de octubre, 2023</option>
+      <option value="2023-15-09">15 de septiembre, 2023</option>
+      <option value="2023-26-08">26 de agosto, 2023</option>
+      <option value="2023-25-08">25 de agosto, 2023</option>
+      <option value="2023-13-08">13 de agosto, 2023</option>
+      <option value="2023-06-08">06 de agosto, 2023</option>
+      <option value="2023-15-07">15 de julio, 2023</option>
+      <option value="2023-28-06">28 de junio, 2023</option>
+      <option value="2023-22-06">22 de junio, 2023</option>
+      <option value="2023-14-06">14 de junio, 2023</option>
+      <option value="2023-04-06">04 de junio, 2023</option>
+      <option value="2023-24-05">24 de mayo, 2023</option>
+      <option value="2023-21-05">21 de mayo, 2023</option>
+      <option value="2023-18-05">18 de mayo, 2023</option>
+      <option value="2023-02-05">02 de mayo, 2023</option>
+      <option value="2023-29-04">29 de abril, 2023</option>
+      <option value="2023-23-04">23 de abril, 2023</option>
+      <option value="2023-15-04">15 de abril, 2023</option>
+      <option value="2023-05-04">05 de abril, 2023</option>
+      <option value="2023-26-03">26 de marzo, 2023</option>
+      <option value="2023-12-03">12 de marzo, 2023</option>
+      <option value="2023-16-02">16 de febrero, 2023</option>
+      <option value="2023-14-02">14 de febrero, 2023</option>
+      <option value="2023-11-02">11 de febrero, 2023</option>
+      <option value="2023-09-02">09 de febrero, 2023</option>
+      <option value="2023-31-01">31 de enero, 2023</option>
+      <option value="2023-22-01">22 de enero, 2023</option>
+      <option value="2023-02-01">02 de enero, 2023</option>
+    </select>
+    
+    <div id="imagenes">
+      <!-- Aquí se mostrarán las imágenes -->
+    </div>
+  </div>
+
+  <script src="funciones.js"></script>
+</body>
+</html>
+
+
+
+
